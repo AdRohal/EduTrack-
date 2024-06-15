@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduTrack</title>
+    <link rel="icon" type="image/png" href="img/EduTrack.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Molengo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/Icon-Logo.png" alt="Logo">
+            </div>
+            <div class="nav-wrapper">
+                <ul>
+                    <li><a href="#home" data-original-text="Home">Home</a></li>
+                    <li><a href="#about" data-original-text="About">About</a></li>
+                    <li><a href="#contact" data-original-text="Contact">Contact</a></li>
+                </ul>
+                <div class="dropdown">
+                    <button class="dropbtn" onclick="toggleLanguageBar()"><img src="img/icon-translate.png"
+                            alt="Translate Icon" id="translate-icon"></button>
+                    <div class="dropdown-content hidden" id="language-bar">
+                        <a href="#" class="language" onclick="changeLanguage('fr')"><img src="img/Flag/french-flag.png"
+                                alt="French Flag"> French</a>
+                        <a href="#" class="language" onclick="changeLanguage('en')"><img src="img/Flag/english-flag.png"
+                                alt="English Flag"> English</a>
+                        <a href="#" class="language" onclick="changeLanguage('ar')"><img src="img/Flag/arabic-flag.png"
+                                alt="Arabic Flag"> Arabic</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content">
+        <div class="Home" id="home">
+            <div class="home-content" id="content">
+                <img id="E_logo" src="img/EduTrack.png" alt="Expertus Logo">
+                <h1 class="home-title" data-original-text="HomeHeading">Welcome to our site EduTrack</h1>
+            </div>
+            <div class="image-container" style="text-align: center; color: white; margin-left: 70px; margin-right: 70px;">
+                <p data-original-text="Project-info">EduTrack is a comprehensive school management application designed to streamline and enhance the management of teachers, students, and classes within educational institutions. Supported by the GitHub Student Pack and Expertus.ma, EduTrack aims to improve the efficiency and quality of educational resource management, making it easier for administrators to oversee and optimize their educational environments.</p>
+            </div>
+            
+            <a href="https://github.com/AdRohal/EduTrack-/raw/main/Setup.exe" download>
+                <button type="button" class="download-button" data-original-text="Download">Download EduTrack</button>
+            </a>
+        </div>
+
+        <div class="instructions" style="text-align: center; color: white; margin-left: 70px; margin-right: 70px;">
+            <h4 data-original-text="Follow these steps">Follow these steps to get started:</h4>
+                <p data-original-text="step_1">1. Look at the first image. This shows the initial setup process.</p>
+                <p data-original-text="step_2">2. Move to the second image. This shows how to configure the settings. "Press 'Keep' "</p>
+                <p data-original-text="step_3">3. Finally, the third image shows how to use the main features of the application. "Press 'Keep anyway'"</p>
+        </div>
+
+        <div class="slider-parent">
+            <div class="slider-container">
+                <div class="slider">
+                    <img class="slider-img" src="img/Slider/Screenshot 2024-06-10 170321.png" alt="Image 1">
+                    <img class="slider-img" src="img/Slider/Screenshot 2024-06-10 170332.png" alt="Image 2">
+                    <img class="slider-img" src="img/Slider/Screenshot 2024-06-10 170346.png" alt="Image 3">
+                </div>
+            </div>
+        </div>
+        
+        <!-- About -->
+        <div class="about-section" id="about">
+            <h2 data-original-text="About">About</h2>
+            <div class="column-container">
+                <div class="column-1">
+                    <p data-original-text="AboutText1">EduTrack is a revolution in educational management, unifying teachers, students, and administrators in a seamless platform.<br><br>
+                        Seeking excellence is like navigating towards ultimate knowledge. You'll be surprised how simplicity can make complexity accessible.<br><br>
+                        EduTrack: where technology and education unite for success.</p>
+                </div>
+                <div class="column-2">
+                    <p data-original-text="AboutText2">Our project, EduTrack, is proudly supported by the GitHub Student Pack and Expertus.ma.<br><br>This collaboration ensures that we have the best resources and expertise to deliver a top-notch educational management platform.</p>
+                    <img src="img/Company/expertus.png" alt="Expertus.ma Logo">
+                    <img src="img/Company/github-education.png" alt="GitHub Education Logo" width="110">
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- contact -->
+        <div class="about-section" id="contact">
+            <h2 data-original-text="Contact">Contact</h2>
+            <div class="column-container">
+                <div class="column-2">
+                    <h3 data-original-text="Developer">Developer</h3>
+                    <img src="img/owner/arohal.jpg" alt="Developper Logo" width="150" style="display: block; margin: 0 auto;">
+                    <p data-original-text="DeveloperInfo">My name is Adam Rohal, a 22-year-old full stack developer.<br><br>I am currently working as a Software Engineer developer for Expertus.ma.<br><br>I am passionate about creating innovative solutions and EduTrack is one of my projects supported by the GitHub Student Pack and Expertus.ma.</p>
+                    
+                </div>
+                
+                <div class="column-3">
+                    <h3 data-original-text="EduTrack">EduTrack</h3>
+                    <p data-original-text="EduTrackInfo">
+                        Tél: +212 (0)671645861<br>
+                        E-mail: <a>Kradamrohal@hotmail.com</a>
+                    </p>
+                    <a href="https://www.linkedin.com/in/adrohal/" target="_blank">
+                        <img src="img/Icon/linkedin.png" alt="linkedin Icon">
+                    </a>
+                    <a href="https://github.com/AdRohal" target="_blank">
+                        <img src="img/Icon/github.png" alt="GitHub Icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
