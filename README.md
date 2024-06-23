@@ -1,4 +1,4 @@
-#EduTrack
+# EduTrack
 
 ## Introduction :
 
@@ -161,6 +161,7 @@ CREATE TABLE `teacherclasses` (
   CONSTRAINT `teacherclasses_ibfk_1` FOREIGN KEY (`TeacherID`) REFERENCES `teacher_registry` (`TeacherID`),
   CONSTRAINT `teacherclasses_ibfk_2` FOREIGN KEY (`ClassID`) REFERENCES `classes` (`ClassID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+```
 
 3. Run the installer and follow the on-screen instructions.
 
